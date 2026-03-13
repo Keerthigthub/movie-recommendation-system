@@ -1,8 +1,6 @@
 
 # Movie Recommendation System
-
-This project is a **content-based movie recommendation system** built using Python and machine learning techniques.
-
+This project is a content-based movie recommendation system built using Python and machine learning techniques.
 The system recommends movies similar to a movie entered by the user.
 
 ## Technologies Used
@@ -10,12 +8,12 @@ The system recommends movies similar to a movie entered by the user.
 - Pandas
 - Scikit-learn
 - Natural Language Processing
-
+- Streamlit (for the web interface)
 ## How It Works
 1. Movie metadata such as genres, keywords, cast, and overview are processed.
 2. The text data is converted into vectors using CountVectorizer.
 3. Cosine similarity is used to calculate similarity between movies.
-4. The system recommends the most similar movies.
+4. The system recommends the most similar movies to the user input.
 
 ## Example
 
@@ -49,7 +47,7 @@ Required files:
 
 Install required libraries:
 
-pip install pandas scikit-learn numpy
+pip install pandas scikit-learn numpy streamlit
 
 Run the program:
 
