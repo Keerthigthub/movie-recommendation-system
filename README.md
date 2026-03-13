@@ -54,3 +54,23 @@ pip install pandas scikit-learn numpy
 Run the program:
 
 python movie_recommender.py
+## Setup Instructions
+
+1. Download the dataset from Kaggle:
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+Required files:
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
+
+2. Run the preprocessing script:
+
+python movie_recommender.py
+
+This will generate:
+- movies.pkl
+- similarity.pkl
+
+3. Run the Streamlit web app:
+
+streamlit run app.py
